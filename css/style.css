@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*Common Tag*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    background-color: #252e30;
+}
+.container{
+   width: 1200px; 
+   margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/*common tag end*/
+
+
+/*nav start*/
+nav .container .row{
+    justify-content: flex-end;
+}
+.focallogo{
+    width: 15%;
+}
+.navmenu{
+  width: 85%;    
+}
+nav ul li:hover a{
+    color: #2ecc71;
+}
+nav ul li a{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 29px 20px;
+    transition: .7s;
+}
+/*nav end*/
+
+
+
+/*banner Start*/
+#banner{
+    background-image: url(../image/banner.jpg);
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    
+}
+#banner .container{
+    height: 100%;
+}
+#banner .container .banner-content h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    border-top: solid white;
+    border-bottom: solid white;
+    margin-bottom: 53px;
+    text-transform: uppercase;
+}
+#banner .container .banner-content a{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    border: solid white;
+    padding: 13px 33px;
+    text-transform: uppercase;
+}
+/*banner End*/
+
+
+
+/*Value-Goals-Hobbies START*/
+#three-content .container .item{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+ 
+#three-content .container .item .subitem h2{
+    color: #566366;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-bottom: 48px;
+    padding-top: 96px;
+    }
+    #three-content .container .item .subitem h6{
+        color: #919191;
+        font-weight: 400;
+        font-size: 18px; 
+        padding-bottom: 98px;  
+    
+    }
+/*Value-Goals-Hobbies END*/
+
+
+
+
+
+/*About Section Start*/
+
+#mainparent{
+    background-color: #f2f2f1;
+    display: flex;
+}
+.icon{
+    display: flex;
+  flex-wrap: wrap;
+   
+}
+.iconcontent{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-right: 50px;
+    padding-bottom: 55px;
+}
+
+#mainparent .leftimage{
+    width: 40%;
+    height: 100%;
+}
+#mainparent .leftimage img{
+    width: 100%;
+}
+
+#mainparent .contain{
+    width: 60%;
+    padding: 100px 80px;
+    
+
+}
+.contentstepone{
+    margin-bottom: 65px;
+}
+.contentstepone h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    color: #566366;
+    
+
+}
+.contentstepone p{
+    color: #919191;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.iconcontent h3{
+    color: #566366;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.iconcontent h6{
+    color: #919191;
+    font-size: 18px;
+    font-weight: 400;
+}
+/*About Section End*/
+
+
+
+
+
+/*Skill Step Start*/
+
+    #skillstep .skill{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+    
+    }
+    #skillstep .myskill{
+        width: 550px;
+    }
+
+    #skillstep .manyskills .backgroundhundred{
+       background-color: #f2f2f1; 
+       width: 300%;
+       margin-top: 6px;
+       margin-bottom: 15px;
+    }
+    #skillstep .manyskills .hundred{
+        background-color: #2ecc71;
+        color: white;
+        text-align: right;
+    }
+    #skillstep .manyskills .ninety{
+        width: 90%;
+    }
+    #skillstep .manyskills .eighty{
+        width: 80%;
+    }
+    #skillstep .manyskills .seventy{
+        width: 70%;
+    }
+#skillstep .manyskills .backgroundhundred{
+    text-align: right;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+#skillstep .manyskills{
+    padding-left: 85px;
+}
+#skillstep .container{
+padding: 97px;
+}
+#skillstep .myskill h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    color: #566366;
+}
+#skillstep .myskill p{
+    color: #919191;
+    font-size: 18px;
+    font-weight: 400;
+}
+#skillstep .manyskills h3{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 22px;
+    color: #566366;
+}
+#skillstep a{
+    padding: 21px 42px;
+    color: #2ecc71;
+    border: solid #2ecc71;
+}
+#skillstep .myskill p{
+    margin-bottom: 42px;
+}
+
+/*Skill Step End*/
+#resume{
+    background-color: #f2f2f1;
+}
+#resume .resumecontent{
+    margin: auto;
+    text-align: center;
+    width: 110%;
+ 
+}
+.resumecontent{
+    padding: 100px 100px;
+   
+
+}
+.resumecontent h2{
+    font-weight: 700;
+    font-size: 30px;
+    color: #566366;
+    text-transform: uppercase;
+
+}
+.resumecontent p{
+    color: #919191;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.resumecontent a{
+    padding: 21px 24px;
+    color: #2ecc71;
+    border: solid #2ecc71;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+}
